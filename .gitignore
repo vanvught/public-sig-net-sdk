@@ -1,0 +1,27 @@
+# C++Builder build output directories
+Win32/
+Win64/
+
+# C++Builder compiled artifacts
+*.obj
+*.pch
+*.tds
+*.map
+*.exe
+*.dll
+
+# C++Builder resource compiled output
+*.res
+
+# C++Builder incremental linker files
+*.ilc
+*.ild
+*.ilf
+*.ils
+
+# C++Builder misc
+*.#00
+*.local
+
+# Delphi/C++Builder backup files
+*.~*
