@@ -54,7 +54,9 @@ inline void SecureZero(void* ptr, size_t len) {
 #elif defined(__APPLE__) || defined(__FreeBSD__) || defined(__OpenBSD__)
     volatile unsigned char* p = static_cast<volatile unsigned char*>(ptr); 
     while (len-- != 0U) {
+
         *p++ = 0U; 
+
     }
 #else
     explicit_bzero(ptr, len);
